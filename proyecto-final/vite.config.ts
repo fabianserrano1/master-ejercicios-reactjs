@@ -3,6 +3,6 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/master-proyectos-reactjs/proyecto-final/",
+  base: "/master-ejercicios-reactjs/proyecto-final/",
   plugins: [react()],
 });
