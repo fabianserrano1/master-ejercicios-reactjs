@@ -11,7 +11,12 @@
       <h1>Entrega de ejercicios 1 - React</h1>
 
       <p>
-        <a href="http://localhost:8080/">← Volver a la página principal</a>
+        <a
+          href="https://fabianserrano1.github.io/master-ejercicios-reactjs/"
+          id="enlace-principal"
+        >
+          ← Volver a la página principal
+        </a>
       </p>
 
       <ul>
@@ -30,5 +35,15 @@
         <li><a href="ejercicio9/">9. Lista de Tareas con LocalStorage</a></li>
       </ul>
     </main>
+    <script>
+      const enlacePrincipal = document.getElementById("enlace-principal");
+
+      if (
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1"
+      ) {
+        enlacePrincipal.href = "http://localhost:8080/";
+      }
+    </script>
   </body>
 </html>
