@@ -22,14 +22,13 @@
 
   .volver {
     margin-bottom: 1rem;
-    color: inherit;
+    color: #333;
     text-decoration: none;
     font-size: 0.9rem;
-    opacity: 0.8;
+    transition: color 0.3s ease;
 
     &:hover {
-      opacity: 1;
-      text-decoration: underline;
+      color: #007bff;
     }
   }
 

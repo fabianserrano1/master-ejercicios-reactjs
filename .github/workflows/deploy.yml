@@ -51,6 +51,7 @@ jobs:
       - name: Preparar archivos para publicar
         run: |
           mkdir -p public/ejercicio-1 public/proyecto-final
+          cp index.html style.css landing.js public/
           cp -r ejercicio-1/dist/. public/ejercicio-1/
           cp -r proyecto-final/dist/. public/proyecto-final/
 

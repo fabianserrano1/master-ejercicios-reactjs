@@ -87,6 +87,18 @@ function App() {
 
   return (
     <div className="app">
+      <a
+        className="enlace-principal"
+        href={
+          window.location.hostname === "localhost" ||
+          window.location.hostname === "127.0.0.1"
+            ? "http://localhost:8080/"
+            : "/master-ejercicios-reactjs/"
+        }
+      >
+        ← Volver a la página principal
+      </a>
+
       <h1 className="titulo">Cat Gallery</h1>
 
       <p className="contador-favoritos">Favoritos: {favorites.length}</p>

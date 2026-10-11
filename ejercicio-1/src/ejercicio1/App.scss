@@ -20,4 +20,15 @@
       background-color: #444;
     }
   }
+
+  .volver {
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
 }
