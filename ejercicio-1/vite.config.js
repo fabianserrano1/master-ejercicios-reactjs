@@ -5,7 +5,7 @@ import { resolve } from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/master-ejecicios-reactjs/ejercicio-1/",
+  base: "/master-ejercicios-reactjs/ejercicio-1/",
   build: {
     rollupOptions: {
       input: {
